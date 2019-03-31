@@ -8,7 +8,7 @@ The input fields are:
 
     Dictionary File : The input file that will be used as reference for the Markov Chain Logic
     Prefix Length : The length of the prefix 
-    Suffix Length : The length of the prefix 
+    Suffix Length : The length of the suffix 
     Output Size : Sets as a marker for the cut-off of the generated text
 
 
