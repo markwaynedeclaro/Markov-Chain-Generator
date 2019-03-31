@@ -13,23 +13,34 @@ The input fields are:
 
 
 
-#### Getting Started
+## Getting Started
 
-## UI
+#### UI
 The UI is built using React. 
-The following are the custom libraries needed:
+To run this on your machine, here are the steps: 
+  ###### Create a React App, then run the following commands to add the necessary custom libraries:
 
-    bootstrap
-    axios
+    npm install bootstrap --save
+    npm install axios --save
+    npm install @material-ui/core --save
+    npm install --save reactstrap react react-dom
+    
+  ###### Copy the src folder in UI repository here then have it replace the src folder on the newly created React App.
+   
+    
+    
+--- Assumption/s: 
 
-Assumption/s: 
-
-    API for the resource = "http://localhost:8080/v1/markov/output"    
+    REST API for the resource = "http://localhost:8080/v1/markov/output"    
 
 
-## Backend
+
+
+#### Backend
 The Backend is a SpringBoot project that is built with Maven. 
-Assumption/s: 
+
+
+--- Assumption/s: 
 
     Origins = "http://localhost:3000"
     
